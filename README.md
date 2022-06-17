@@ -53,8 +53,25 @@ end
 
 ## Benchmarks
 
+Benchmarks were performed using Benchee with following configuration:
+
+<img width="436" alt="Screenshot 2022-06-17 at 16 47 59" src="https://user-images.githubusercontent.com/25062706/174323628-c4a2c225-3ce8-4384-a044-87227a5250c8.png">
+
+<details>
+<summary markdown="span">Results</summary>
+  
+<img width="712" alt="to_1280x720" src="https://user-images.githubusercontent.com/25062706/174324133-23224147-9bfe-4752-8519-f62416481ba6.png">
+<img width="708" alt="to_960x540" src="https://user-images.githubusercontent.com/25062706/174324141-bdcbf59f-90ae-41f7-9c62-08477eb797db.png">
+<img width="704" alt="to_640x360" src="https://user-images.githubusercontent.com/25062706/174324149-aff59b5d-be68-470b-8f6d-be886562f407.png">
+<img width="708" alt="to_480x270" src="https://user-images.githubusercontent.com/25062706/174324155-94f0b366-66c0-4624-8387-0253e348777d.png">
+<img width="706" alt="to_320x180" src="https://user-images.githubusercontent.com/25062706/174324164-483594ab-c7f0-4912-a146-23ce9456c71c.png">
+
+</details>
+
+![charts](https://user-images.githubusercontent.com/25062706/174325216-fbd78c78-9eb2-4719-aebd-f47ab8907fd2.png)
 
 ## Copyright and License
+
 
 Copyright 2020, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=membrane_template_plugin)
 
