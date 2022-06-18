@@ -13,7 +13,6 @@ defmodule Membrane.Nx.VideoScaler.Plugin.Mixfile do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       dialyzer: dialyzer(),
-
       description: "Plugin for scaling video using Nx",
       package: package(),
 

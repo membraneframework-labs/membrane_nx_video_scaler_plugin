@@ -32,7 +32,9 @@ defmodule ScalePipeline do
       |> to(:file_sink)
     ]
 
-    {{:ok, spec: %ParentSpec{children: children, links: links, crash_group: {:group, :temporary}}}, %{return_pid: args.return_pid}}
+    {{:ok,
+      spec: %ParentSpec{children: children, links: links, crash_group: {:group, :temporary}}},
+     %{return_pid: args.return_pid}}
   end
 
   @impl true

@@ -59,7 +59,7 @@ Benchmarks were performed using Benchee with following configuration:
 
 <details>
 <summary markdown="span">Results</summary>
-  
+
 <img width="712" alt="to_1280x720" src="https://user-images.githubusercontent.com/25062706/174324133-23224147-9bfe-4752-8519-f62416481ba6.png">
 <img width="708" alt="to_960x540" src="https://user-images.githubusercontent.com/25062706/174324141-bdcbf59f-90ae-41f7-9c62-08477eb797db.png">
 <img width="704" alt="to_640x360" src="https://user-images.githubusercontent.com/25062706/174324149-aff59b5d-be68-470b-8f6d-be886562f407.png">
