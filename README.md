@@ -59,16 +59,22 @@ Benchmarks were performed using Benchee with following configuration:
 
 <details>
 <summary markdown="span">Results</summary>
-
-<img width="712" alt="to_1280x720" src="https://user-images.githubusercontent.com/25062706/174324133-23224147-9bfe-4752-8519-f62416481ba6.png">
-<img width="708" alt="to_960x540" src="https://user-images.githubusercontent.com/25062706/174324141-bdcbf59f-90ae-41f7-9c62-08477eb797db.png">
-<img width="704" alt="to_640x360" src="https://user-images.githubusercontent.com/25062706/174324149-aff59b5d-be68-470b-8f6d-be886562f407.png">
-<img width="708" alt="to_480x270" src="https://user-images.githubusercontent.com/25062706/174324155-94f0b366-66c0-4624-8387-0253e348777d.png">
-<img width="706" alt="to_320x180" src="https://user-images.githubusercontent.com/25062706/174324164-483594ab-c7f0-4912-a146-23ce9456c71c.png">
+  
+<img width="717" alt="to_1280x720" src="https://user-images.githubusercontent.com/25062706/174434869-3c4b2ae1-a89a-4fd6-b7be-6b32628e2d39.png">
+ 
+![to_960x540](https://user-images.githubusercontent.com/25062706/174434927-bb2098f7-d5ef-42c9-86c4-aef4adecb53d.png)
+  
+![to_640x360](https://user-images.githubusercontent.com/25062706/174434937-10c6b2bc-8d70-4fad-83c6-b820466ddde8.png)
+  
+![to_480x270](https://user-images.githubusercontent.com/25062706/174434939-82b8ad56-61b4-4fd9-ac0f-7d4c8a5920fa.png)
+  
+![to_320x180](https://user-images.githubusercontent.com/25062706/174434941-b32725da-27b8-483d-b59b-9d9d4353d321.png)
+  
+![to_640x480](https://user-images.githubusercontent.com/25062706/174434943-8c302401-6852-49ad-8b2c-8abaf757e5e3.png)
 
 </details>
 
-![charts](https://user-images.githubusercontent.com/25062706/174325216-fbd78c78-9eb2-4719-aebd-f47ab8907fd2.png)
+![charts](https://user-images.githubusercontent.com/25062706/174434889-024e6931-1807-4933-a081-0e565fdc9249.png)
 
 ## Copyright and License
 
