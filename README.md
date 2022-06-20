@@ -1,4 +1,4 @@
-# Membrane Template Plugin
+# Membrane NX Video Scaler Plugin
 
 [![Hex.pm](https://img.shields.io/hexpm/v/membrane_nx_video_scaler_plugin.svg)](https://hex.pm/packages/membrane_nx_video_scaler_plugin)
 [![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_nx_video_scaler_plugin)
