@@ -1,25 +1,23 @@
-defmodule Membrane.Template.Mixfile do
+defmodule Membrane.Nx.VideoScaler.Plugin.Mixfile do
   use Mix.Project
 
   @version "0.1.0"
-  @github_url "https://github.com/membraneframework/membrane_template_plugin"
+  @github_url "https://github.com/membraneframework-labs/membrane_nx_video_scaler_plugin"
 
   def project do
     [
-      app: :membrane_template_plugin,
+      app: :membrane_nx_video_scaler_plugin,
       version: @version,
       elixir: "~> 1.13",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       dialyzer: dialyzer(),
-
-      # hex
-      description: "Template Plugin for Membrane Multimedia Framework",
+      description: "Plugin for scaling video using Nx",
       package: package(),
 
       # docs
-      name: "Membrane Template plugin",
+      name: "Membrane Nx Video Scaler Plugin",
       source_url: @github_url,
       homepage_url: "https://membraneframework.org",
       docs: docs()
@@ -37,10 +35,16 @@ defmodule Membrane.Template.Mixfile do
 
   defp deps do
     [
+      {:exla, "~> 0.2"},
       {:membrane_core, "~> 0.10.0"},
-      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
+      {:nx, "~> 0.2"},
+      {:benchee, "~> 1.0", only: :dev},
+      {:credo, ">= 0.0.0", only: :dev, runtime: false},
       {:dialyxir, ">= 0.0.0", only: :dev, runtime: false},
-      {:credo, ">= 0.0.0", only: :dev, runtime: false}
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
+      {:membrane_ffmpeg_swscale_plugin, "~> 0.10.0", only: :dev},
+      {:membrane_file_plugin, "~> 0.12.0", only: :dev},
+      {:membrane_h264_ffmpeg_plugin, "~> 0.21.1", only: :dev}
     ]
   end
 
@@ -74,7 +78,7 @@ defmodule Membrane.Template.Mixfile do
       extras: ["README.md", "LICENSE"],
       formatters: ["html"],
       source_ref: "v#{@version}",
-      nest_modules_by_prefix: [Membrane.Template]
+      nest_modules_by_prefix: [Membrane.Nx]
     ]
   end
 end
