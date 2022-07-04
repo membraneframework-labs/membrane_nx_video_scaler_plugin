@@ -57,8 +57,10 @@ Benchmarks were performed using Benchee with following configuration:
 
 <img width="436" alt="Screenshot 2022-06-17 at 16 47 59" src="https://user-images.githubusercontent.com/25062706/174323628-c4a2c225-3ce8-4384-a044-87227a5250c8.png">
 
+Charts aggregate results from 5 measurements for every case (for every case Benchee was run 5 times, and every point on the charts shows mean and standard deviation computed from that 5 results).
+
 <details>
-<summary markdown="span">Results</summary>
+<summary markdown="span">Example Benchee results</summary>
   
 <img width="717" alt="to_1280x720" src="https://user-images.githubusercontent.com/25062706/174434869-3c4b2ae1-a89a-4fd6-b7be-6b32628e2d39.png">
  
@@ -74,12 +76,12 @@ Benchmarks were performed using Benchee with following configuration:
 
 </details>
 
-![charts](https://user-images.githubusercontent.com/25062706/174434889-024e6931-1807-4933-a081-0e565fdc9249.png)
+![charts](https://user-images.githubusercontent.com/25062706/177129835-3620f553-c56a-4c4d-a709-63723452b820.png)
 
 ## Copyright and License
 
 
-Copyright 2020, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=membrane_template_plugin)
+Copyright 2022, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=membrane_template_plugin)
 
 [![Software Mansion](https://logo.swmansion.com/logo?color=white&variant=desktop&width=200&tag=membrane-github)](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=membrane_nx_video_scaler_plugin)
 
