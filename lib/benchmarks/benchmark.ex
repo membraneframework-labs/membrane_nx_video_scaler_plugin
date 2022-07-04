@@ -5,13 +5,13 @@ defmodule Benchmark do
       output_path: "videos/output.h264"
     }
 
-    args_ffmpeg = add_scaler(args, 1280, 720, :ffmpeg)
-    args_nx = add_scaler(args, 1280, 720, :nx)
+    args_ffmpeg = add_scaler(args, 320, 180, :ffmpeg)
+    args_nx = add_scaler(args, 320, 180, :nx)
 
     Benchee.run(
       %{
-        "1920x1080 to 1280x720 - FFmpeg" => fn -> ScalePipeline.run(args_ffmpeg) end,
-        "1920x1080 to 1280x720 - Nx" => fn -> ScalePipeline.run(args_nx) end
+        "1920x1080 to 320x180 - FFmpeg" => fn -> ScalePipeline.run(args_ffmpeg) end,
+        "1920x1080 to 320x180 - Nx" => fn -> ScalePipeline.run(args_nx) end
       },
       time: 10
     )
